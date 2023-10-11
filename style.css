@@ -1,0 +1,191 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.header{
+    height: 50px;
+    padding: 10px 50px;
+    background-color: #97cdff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.header #checkbox{
+    opacity: 0;
+}
+
+.header #brand{
+    font-weight: 600;
+}
+
+.header #contact-me{
+    background-color: aliceblue;
+}
+
+.header #more{
+    display: none;
+}
+
+.header #more.visible{
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    background-color: whitesmoke;
+}
+
+.header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.content {
+    position: absolute;
+}
+.header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b6e1f4;
+    background-image: linear-gradient(45deg,#2266C7,#59BEF8);
+}
+
+.home #img-home{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    background-image: url("assets/download.jpeg");
+    background-size: cover;
+}
+
+.home #home-text div{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 8px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.home .div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+
+.home #home-text p{
+    width: 500px;
+    margin-right: 100px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 30px 50px;
+    background-image: linear-gradient(45deg,#2266C7,#59BEF8);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.skill{
+    padding: 0px 50px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg,#2266C7,#59BEF8);
+}
+
+.skill #heading-skill{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.skill #content-skill li{
+    margin: 20px;
+}
+
+.skill ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.skill img{
+    width: 30%;
+    height: 50%;
+}
+
+.education{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(45deg,#2266C7,#59BEF8);
+    padding: 50px;
+}
+
+.education #content-edu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.experience{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    background-image: linear-gradient(45deg,#687EFF,#98E4FF);
+}
+
+.experience ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.experience li{
+    margin: 20px;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+    height: 100vh;
+    border-bottom: 3px solid #000;
+    background-image: linear-gradient(45deg,#687EFF,#98E4FF);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
